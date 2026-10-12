@@ -3,21 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raspored | Plesni Studio Ritam</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Raspored | Plesni studio Ritam</title>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 
-    <header>
-        <div>
-            <a href="index.html">Studio Ritam</a>
-            <nav>
-                    <a href="index.html">Naslovna</a>
-                    <a href="schedule.html">Raspored</a>
-                    <a href="enroll.html">Upis</a>
+    <header class="site-header">
+        <div class="wrapper header-bar">
+            <a href="index.html" class="brand">Plesni studio Ritam</a>
+            <nav class="site-nav">
+                <a href="index.html">Naslovnica</a>
+                <a href="schedule.html">Raspored</a>
+                <a href="enroll.html">Upis</a>
             </nav>
         </div>
     </header>
     
+    <main class="wrapper">
+        <h1>Tjedni raspored</h1>
+        <p class ="intro">Svi termini održavaju se u velikoj dvorani na prvom katu.
+            Dođi 10 minute ranije i donesi bocu vode.
+        </p>
+
+        <div class="grid">
+            <article class="card">
+                <span class="badge">NOVO</span>
+                <h2>Hip Hop</h2>
+                <p>Ponedjeljak i srijeda od 18:00 do 19:00</p>
+                <p>Početnici, 12 - 16 godina</p>
+            </article>
+            <article class="card">
+                <h2>Suvremeni ples</h2>
+                <p>Utorak i četvrtak od 19:00 do 20:30</p>
+                <p>Srednja razina, od 15 godina</p>
+            </article>
+            <article class="card">
+                <span class="badge">POPUNJENO</span>
+                <h2>Salsa</h2>
+                <p>Petak, 20.00 - 21:30</p>
+                <p>Parovi, svi uzrast</p>
+            </article>
+            <article class="card">
+                <h2>Otvorena proba</h2>
+                <p>Subota, 10:00 - 12:30</p>
+                <p>Slobodan ulaz za sve polaznike studija</p>
+            </article>
+        </div>
+
+        <p id="note">Za vrijeme državnih praznika termini su ne odražavaju.</p>
+
+        <a href="enroll.html" class="button">Upiši se</a>
+    </main>
+
 </body>
 </html>
